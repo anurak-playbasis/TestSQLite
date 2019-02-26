@@ -57,6 +57,7 @@ public class AddFriendActivity extends AppCompatActivity {
                 } else {
                     friendData.setId(ID);
                     //mHelper.updateFriend(friend);
+                    Toast.makeText(getApplicationContext(), "Can't add friend" , Toast.LENGTH_LONG).show();
                 }
                 finish();
 
